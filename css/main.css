@@ -1,0 +1,457 @@
+html, body, main, section {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  font-family: 'Work Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*NAVBAR*/
+#nav {
+  padding-bottom: 7px;
+  position: fixed;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  width: 100%;
+  z-index: 2;
+  font-size: 18px;
+  background-image: linear-gradient(260deg, #00a4aa 0%, #034ba8 100%);
+}
+
+#main-nav {
+  list-style-type: none;
+  display: none;
+  flex-direction: column;
+  z-index: 3;
+}
+
+#main-nav li {
+  text-align: center;
+  margin: 15px auto;
+}
+
+.nav-links,
+#logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#logo:hover,
+.nav-links:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+#logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+#navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 24px;
+}
+
+#navbar-toggle:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.icon {
+  display: none;
+}
+
+/*SECTIONS*/
+.content {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1em;
+  justify-content: space-around;
+  padding: 3vh 3vw;
+}
+
+.sectionHeader1 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-image: linear-gradient(260deg, #00a4aa 0%, #034ba8 100%);
+}
+.sectionHeader2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-image: url("https://media.gannett-cdn.com/brevard/38321750001/201504/3414/38321750001_4205950725001_video-still-for-video-4206031699001.jpg?pubId=38321750001&width=660&height=371&format=pjpg&auto=webp")
+}
+.sectionHeader3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-image: url("http://www.nasa.gov/sites/default/files/thumbnails/image/49953052258_b9a7d6971d_k_0.jpg")
+}
+.sectionTitle {
+  
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: 2A85BC;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: initial;
+
+
+}
+
+/*SECTION HEADERS*/
+#contactHeader {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+ 
+  background-image: url("https://cdn.hswstatic.com/gif/artificial-gravity1.jpg");
+  background-size: cover;
+
+}
+/*#contactHeader {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  height: 20vh;
+  background-image: linear-gradient(260deg, #00a4aa 0%, #034ba8 100%);
+  background-size: cover;
+}*/
+
+#nameOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  margin: 0 auto;
+  font-size: 2em;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding: 0 2vw;
+}
+
+
+
+/*HERO SECTION*/
+#hero {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300vh;
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://media.wired.com/photos/5c071c65785d6a2ce543b373/master/pass/spacexdragon.jpg");
+  background-size: cover;
+  margin-top: 6vh;
+  padding-top: 0vh
+}
+
+#nameOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  margin: 0 auto;
+  font-size: 2em;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding: 0 2vw;
+}
+
+/*ABOUT SECTION*/
+#about {
+  padding-top: 5vh;
+  
+}
+
+.aboutIcon {
+  font-size: 3em;
+  margin-bottom: 2vh;
+}
+
+/*#aboutimg {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  
+ 
+}*/
+
+#headshot {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#aboutText {
+  text-align: center;
+}
+
+.aboutGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  
+  
+ 
+}
+.aboutGrid .aboutCol {
+  width: 32%;
+ 
+ 
+}
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/*WORK SECTION*/
+#exampleWork {
+  display: flex;
+  
+  justify-content: space-between;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+a.projectTitle {
+    text-decoration: solid;
+    text-size-adjust: 24px
+}
+
+.project {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-around;
+  padding: 3vh 0;
+  
+  align-items: center;
+  position: relative; 
+}
+
+.aboutImg {
+  position: relative;
+  width: 50%;
+  margin: auto
+}
+
+.image {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.aboutimg:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+
+.projectDetails {
+  width: 70%;
+  
+}
+
+/*CONTACT SECTION*/
+#contact {
+  justify-content: center;
+}
+
+#contactInfo {
+  
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10vh;
+  background-image: linear-gradient(260deg, #00aa00 0%, #2282ff 100%);
+}
+}
+
+#social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.sociali {
+  font-size: 2em;
+  line-height: 1.2em;
+  padding: 10px;
+  background: #2A85BC;
+  color: #fff;
+  margin-right: 2vw;
+  margin-bottom: 10px !important;
+  padding-bottom: 10px !important;
+}
+.sociali:hover, .sociali:focus {
+  background: #044059;
+}
+#project-lite{
+display: flex;
+justify-content: center;
+
+}
+ table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+ 
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/*TRAIL SECTION*/
+#trail {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300vh;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/nanotrail68.99.png");
+  background-size: cover;
+  margin-top: 6vh;
+  padding-top: 0vh
+}
+
+#nameOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#demo{
+  font-weight: bold;
+  font-size: 18pt;
+}
+.signup{
+  font-size: 20px;
+  padding: 14px 40px;
+}
